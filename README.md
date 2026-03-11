@@ -2,13 +2,13 @@ Entrega 2 - Backend con WebSockets
 
 Proyecto desarrollado para la segunda entrega del curso de Backend.
 
-Descripción
+- Descripción
 
 Esta aplicación es un servidor construido con Node.js, Express y Handlebars que permite visualizar una lista de productos y gestionarlos en tiempo real mediante WebSockets con Socket.io.
 
 El sistema permite agregar y eliminar productos, y los cambios se reflejan automáticamente en la interfaz sin necesidad de recargar la página.
 
-Tecnologías utilizadas
+- Tecnologías utilizadas
 
 Node.js
 
@@ -22,7 +22,7 @@ JavaScript
 
 Bootstrap (para estilos básicos)
 
-Funcionalidades
+- Funcionalidades
 
 Visualización de productos almacenados en un archivo JSON.
 
