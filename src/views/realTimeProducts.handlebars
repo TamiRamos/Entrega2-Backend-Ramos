@@ -1,0 +1,24 @@
+<h1 class="mb-4">Productos en tiempo real</h1>
+
+<ul id="productList" class="list-group mb-4"></ul>
+
+<h3>Agregar producto</h3>
+
+<form id="productForm" class="mb-4">
+
+<input class="form-control mb-2" type="text" name="title" placeholder="Nombre">
+
+<input class="form-control mb-2" type="number" name="price" placeholder="Precio">
+
+<button class="btn btn-success">Agregar</button>
+
+</form>
+
+<h3>Eliminar producto</h3>
+
+<input class="form-control mb-2" type="number" id="deleteId" placeholder="ID producto">
+
+<button class="btn btn-danger" id="deleteBtn">Eliminar</button>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realtime.js"></script>
